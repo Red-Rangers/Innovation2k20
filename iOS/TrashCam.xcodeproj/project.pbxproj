@@ -15,6 +15,9 @@
 		3C6B5C9F23F6AD8A00043E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6B5C9D23F6AD8A00043E81 /* LaunchScreen.storyboard */; };
 		3C6B5CAA23F6AD8A00043E81 /* TrashCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B5CA923F6AD8A00043E81 /* TrashCamTests.swift */; };
 		3C6B5CB523F6AD8A00043E81 /* TrashCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B5CB423F6AD8A00043E81 /* TrashCamUITests.swift */; };
+		3C6B5CC323F6D27000043E81 /* ProfileContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B5CC223F6D27000043E81 /* ProfileContentView.swift */; };
+		3C6B5CC523F6D58500043E81 /* UserImageCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B5CC423F6D58500043E81 /* UserImageCircle.swift */; };
+		3C6B5CC723F6DAB300043E81 /* ProfileMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B5CC623F6DAB300043E81 /* ProfileMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3C6B5CB023F6AD8A00043E81 /* TrashCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6B5CB423F6AD8A00043E81 /* TrashCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashCamUITests.swift; sourceTree = "<group>"; };
 		3C6B5CB623F6AD8A00043E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6B5CC223F6D27000043E81 /* ProfileContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContentView.swift; sourceTree = "<group>"; };
+		3C6B5CC423F6D58500043E81 /* UserImageCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImageCircle.swift; sourceTree = "<group>"; };
+		3C6B5CC623F6DAB300043E81 /* ProfileMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				3C6B5C9423F6AD8900043E81 /* SceneDelegate.swift */,
 				3C6B5C9623F6AD8900043E81 /* ViewController.swift */,
 				3C6B5C9823F6AD8900043E81 /* Main.storyboard */,
+				3C6B5CC423F6D58500043E81 /* UserImageCircle.swift */,
+				3C6B5CC623F6DAB300043E81 /* ProfileMapView.swift */,
+				3C6B5CC223F6D27000043E81 /* ProfileContentView.swift */,
 				3C6B5C9B23F6AD8A00043E81 /* Assets.xcassets */,
 				3C6B5C9D23F6AD8A00043E81 /* LaunchScreen.storyboard */,
 				3C6B5CA023F6AD8A00043E81 /* Info.plist */,
@@ -261,7 +270,10 @@
 			files = (
 				3C6B5C9723F6AD8900043E81 /* ViewController.swift in Sources */,
 				3C6B5C9323F6AD8900043E81 /* AppDelegate.swift in Sources */,
+				3C6B5CC323F6D27000043E81 /* ProfileContentView.swift in Sources */,
 				3C6B5C9523F6AD8900043E81 /* SceneDelegate.swift in Sources */,
+				3C6B5CC523F6D58500043E81 /* UserImageCircle.swift in Sources */,
+				3C6B5CC723F6DAB300043E81 /* ProfileMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
