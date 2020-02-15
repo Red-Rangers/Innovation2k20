@@ -5,7 +5,7 @@ xhr.onreadystatechange = function (){
 		var obj = JSON.parse(this.responseText);
 		mymap.setView([20.5937,78.9629],6);
 		for(var i=0;i< obj.length;i++){
-			var marker = L.marker([obj[i].lat,obj[i].long]).addTo(mymap);
+			//var marker = L.marker([obj[i].lat,obj[i].long]).addTo(mymap);
 			var circle = L.circle([obj[i].lat,obj[i].long], {
 					color: 'red',
 					fillColor: '#f03',
@@ -16,7 +16,7 @@ xhr.onreadystatechange = function (){
 	}
 }
 
-xhr.open("GET","/api/points",true);
+xhr.open("GET","/api/points2",true);
 xhr.send();
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
