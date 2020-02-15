@@ -6,6 +6,12 @@ xhr.onreadystatechange = function (){
 		mymap.setView([20.5937,78.9629],6);
 		for(var i=0;i< obj.length;i++){
 			var marker = L.marker([obj[i].lat,obj[i].long]).addTo(mymap);
+			var circle = L.circle([obj[i].lat,obj[i].long], {
+					color: 'red',
+					fillColor: '#f03',
+					fillOpacity: 0.2,
+					radius: 20
+					}).addTo(mymap);
 		}
 	}
 }
@@ -23,11 +29,11 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 	}).addTo(mymap);
 
 
-var circle = L.circle([18.453471,73.849960], {
-	color: 'red',
-	fillColor: '#f03',
-	fillOpacity: 0.5,
-	radius: 20
-	}).addTo(mymap);
-
+//var circle = L.circle([18.453471,73.849960], {
+//	color: 'red',
+//	fillColor: '#f03',
+//	fillOpacity: 0.5,
+//	radius: 20
+//	}).addTo(mymap);
+//
 //marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();

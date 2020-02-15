@@ -27,7 +27,7 @@ def get_buckets():
     except Exception as e:
         print("Unable to retrieve list buckets: {0}".format(e))
 
-def multi_part_upload(bucket_name, item_name, file_path):
+def multi_part_upload( item_name, file_path,bucket_name='trashcam-image'):
     try:
         print("Starting file transfer for {0} to bucket: {1}\n".format(item_name, bucket_name))
         # set 5 MB chunks
