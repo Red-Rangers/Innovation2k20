@@ -18,6 +18,9 @@
 		3C6B5CC323F6D27000043E81 /* ProfileContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B5CC223F6D27000043E81 /* ProfileContentView.swift */; };
 		3C6B5CC523F6D58500043E81 /* UserImageCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B5CC423F6D58500043E81 /* UserImageCircle.swift */; };
 		3C6B5CC723F6DAB300043E81 /* ProfileMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B5CC623F6DAB300043E81 /* ProfileMapView.swift */; };
+		3C9C5F9823F72C7A00E1DAD6 /* CameraSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5F9723F72C7A00E1DAD6 /* CameraSceneViewController.swift */; };
+		3C9C5F9A23F72CAC00E1DAD6 /* ProfileSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5F9923F72CAC00E1DAD6 /* ProfileSceneViewController.swift */; };
+		3CE434B823F79D70003898F7 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE434B723F79D70003898F7 /* ImagePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		3C6B5CC223F6D27000043E81 /* ProfileContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContentView.swift; sourceTree = "<group>"; };
 		3C6B5CC423F6D58500043E81 /* UserImageCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImageCircle.swift; sourceTree = "<group>"; };
 		3C6B5CC623F6DAB300043E81 /* ProfileMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMapView.swift; sourceTree = "<group>"; };
+		3C9C5F9723F72C7A00E1DAD6 /* CameraSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSceneViewController.swift; sourceTree = "<group>"; };
+		3C9C5F9923F72CAC00E1DAD6 /* ProfileSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSceneViewController.swift; sourceTree = "<group>"; };
+		3CE434B723F79D70003898F7 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				3C6B5C9423F6AD8900043E81 /* SceneDelegate.swift */,
 				3C6B5C9623F6AD8900043E81 /* ViewController.swift */,
 				3C6B5C9823F6AD8900043E81 /* Main.storyboard */,
+				3CE434B723F79D70003898F7 /* ImagePickerViewController.swift */,
+				3C9C5F9923F72CAC00E1DAD6 /* ProfileSceneViewController.swift */,
+				3C9C5F9723F72C7A00E1DAD6 /* CameraSceneViewController.swift */,
 				3C6B5CC423F6D58500043E81 /* UserImageCircle.swift */,
 				3C6B5CC623F6DAB300043E81 /* ProfileMapView.swift */,
 				3C6B5CC223F6D27000043E81 /* ProfileContentView.swift */,
@@ -268,7 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE434B823F79D70003898F7 /* ImagePickerViewController.swift in Sources */,
+				3C9C5F9823F72C7A00E1DAD6 /* CameraSceneViewController.swift in Sources */,
 				3C6B5C9723F6AD8900043E81 /* ViewController.swift in Sources */,
+				3C9C5F9A23F72CAC00E1DAD6 /* ProfileSceneViewController.swift in Sources */,
 				3C6B5C9323F6AD8900043E81 /* AppDelegate.swift in Sources */,
 				3C6B5CC323F6D27000043E81 /* ProfileContentView.swift in Sources */,
 				3C6B5C9523F6AD8900043E81 /* SceneDelegate.swift in Sources */,

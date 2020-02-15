@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ProfileContentView: View {
+    @State private var action: Int? = 0
     var body: some View {
         VStack {
             
@@ -33,8 +34,20 @@ struct ProfileContentView: View {
             }
             .padding()
             
+            HStack {
+                    Text("@hrishibhattu")
+                        .fontWeight(.semibold)
+                        .font(.subheadline)
+                        .foregroundColor(Color.white)
+                        .padding()
+                
+            }
+            .background(Color.blue)
+//            .padding()
+//            .foregroundColor(Color.white)
+            .cornerRadius(40)
             
-            
+                        
             Spacer()
         }
     }
